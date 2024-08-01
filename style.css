@@ -6,55 +6,64 @@
 
 body{
   font-family: "Inter", sans-serif;
-  /* background-color: rgba(0, 0, 0, 0.925); */
+  background-color: rgba(0, 0, 0, 0.925);
+  color: white;
 }
 *{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .container{
     width: 90%;
-    margin: 5rem auto;
+    margin: 1rem auto;
     border-radius: 1rem;
   }
   /* navbar style */
-.nav-bar{
+
+  #header{
+    /* width: 100%;
+    height: 100vh;
+    background-image: url(images/Images\ 2.png);
+    background-position: center;
+    background-size: cover; */
+  }
+  #container{
+    padding: 10px 10%;
+  }
+  nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  .logo h3{
-    font-weight: 800;
-    color: rgb(230, 83, 60);
-    font-size: 2.25rem;
+  .logo{
+    font-size: 2rem;
+    color: rgb(165, 144, 42);
+    font-weight: 700;
   }
-  
-  .nav-options{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 3rem;
-    width: 465px;
-    height: 46px;
-    padding: 4px 4px 4px 4px;
-    border: 1px	Inside
-    rgba(255, 255, 255, 0.1);
-    text-align: center;
+  nav ul{
+    border: 1px solid rgba(241, 233, 233, 0.747);
+    /* padding: 10px 3px; */
+    border-radius: 30px;
+    background-color: black;
   }
-  .home{
-    width: 52px;
-    height: 22px;
-    padding: 8px 20px 8px 20px;
-    background-color:rgb(230, 83, 60) ;
+  nav ul li{
+    display: inline-block;
+    margin: 10px 20px;
+    list-style: none;
+  }
+  nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.12rem;
+    font-weight: 500;
+    color: #ffffffe2;
+  }
+  nav ul li a span{
+    padding: 8px 15px;
     border: none;
     border-radius: 20px;
-    margin-top:-5px ;
-  }
-  .nav-options p{
-    cursor: pointer;
-    font-weight: 400;
-    font-size: 18px;
-    color: rgb(255, 255, 255);
+    background-color: chocolate;
   }
 
- 
-  
-  
